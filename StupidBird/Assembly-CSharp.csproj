@@ -66,16 +66,16 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\Textures\atlas.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -273,16 +273,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="AipSdk">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Assets/Plugins/AipSdk.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/AipSdk.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="OfflineFaceDetection">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Assets/Plugins/OfflineFaceDetection.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/OfflineFaceDetection.dll</HintPath>
     </Reference>
     <Reference Include="PublicClassLibrary">
-      <HintPath>E:/MyUnity/Unity Project/StupidBird/Assets/Plugins/PublicClassLibrary.dll</HintPath>
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/PublicClassLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Adonis/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
