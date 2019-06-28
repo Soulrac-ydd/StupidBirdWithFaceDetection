@@ -60,10 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\bgController.cs" />
-    <Compile Include="Assets\Scripts\CallCamera.cs" />
-    <Compile Include="Assets\Scripts\PipeController.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\FaceDetection\JsonClientData.cs" />
+    <Compile Include="Assets\Scripts\FaceDetection\JsonFaceRequestData.cs" />
+    <Compile Include="Assets\Scripts\FaceDetection\OfflineFaceDetection.cs" />
+    <Compile Include="Assets\Scripts\FaceDetection\OnlineFaceDetection.cs" />
+    <Compile Include="Assets\Scripts\FaceDetection\Position.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\BgController.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\CallCamera.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\PipeController.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\PlayerController.cs" />
     <None Include="Assets\Textures\atlas.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -278,11 +283,14 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="OfflineFaceDetection">
-      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/OfflineFaceDetection.dll</HintPath>
+    <Reference Include="System.Net">
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/System.Net.dll</HintPath>
     </Reference>
-    <Reference Include="PublicClassLibrary">
-      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/PublicClassLibrary.dll</HintPath>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <HintPath>E:/MyUnity/Unity Project/StupidBirdWithFaceDetection/StupidBird/Assets/Plugins/System.Net.Http.WebRequest.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Adonis/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
