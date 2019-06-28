@@ -16,6 +16,7 @@ public class BgController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        //背景控制 未做自适应 用于背景的重复利用 对应Unity中Hierarchy三个disable的bg 使用人脸检测则不需要背景 
         transform.Translate(Vector3.left * Time.deltaTime * mSpeed);
         if (transform.localPosition.x < -1000)
         {

@@ -11,18 +11,21 @@ using UnityEngine;
 
 public class OnlineFaceDetection
 {
+    // 使用API-v3接口
+    // 具体接口文档请参考 https://ai.baidu.com/docs#/Face-Detect-V3/top
+
     // 调用getAccessToken()获取的 access_token建议根据expires_in 时间 设置缓存
     // 返回token示例
     public static string access_token = "";
 
     // 百度云中开通对应服务应用的 API Key 建议开通应用的时候多选服务
-    private static string clientId = "7GLoNSeBYpVq5XYALtcF4e2E";
+    private static string clientId = "百度云应用的AK";
     // 百度云中开通对应服务应用的 Secret Key
-    private static string clientSecret = "N8xZQGf8GgMqDQXorbeLSr4YBQfoRgAp";
+    private static string clientSecret = "百度云应用的SK";
 
     public static void SetAccessToken()
     {
-        string authHost = "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=7GLoNSeBYpVq5XYALtcF4e2E&client_secret=N8xZQGf8GgMqDQXorbeLSr4YBQfoRgAp";
+        string authHost = "https://aip.baidubce.com/oauth/2.0/token";
         HttpClient client = new HttpClient(); 
         List<KeyValuePair<string, string>> paraList = new List<KeyValuePair<string, string>>
         {
@@ -66,7 +69,7 @@ public class OnlineFaceDetection
             double left_eye = jFRD.result.face_list[0].eye_status.left_eye;
             double right_eye = jFRD.result.face_list[0].eye_status.right_eye;
 
-            return left_eye.ToString() + "||" + right_eye.ToString();
+            return left_eye.ToString() + "|" + right_eye.ToString();
         }
         catch (Exception)
         {

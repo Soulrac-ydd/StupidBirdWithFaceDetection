@@ -10,10 +10,12 @@ using UnityEngine;
 
 public class OfflineFaceDetection
 {
-    // 设置APPID/AK/SK
-    static string APP_ID = "16639806";
-    static string API_KEY = "7GLoNSeBYpVq5XYALtcF4e2E";
-    static string SECRET_KEY = "N8xZQGf8GgMqDQXorbeLSr4YBQfoRgAp";
+    // 使用Http SDK-v3接口
+    // 具体接口文档请参考 https://ai.baidu.com/docs#/Face-Csharp-SDK/top
+    // 设置APPID/AK/SK，这些值存在你所创建的百度云控制台应用中，均为字符串，用于标识用户，为访问做签名验证。
+    static string APP_ID = "你的 App ID";
+    static string API_KEY = "你的 Api Key";
+    static string SECRET_KEY = "你的 Secret Key";
 
     static Face client = new Face(API_KEY, SECRET_KEY);
 
@@ -22,7 +24,7 @@ public class OfflineFaceDetection
 
     // 如果有可选参数
     static Dictionary<string, object> options = new Dictionary<string, object>{
-        {"face_field", "age,beauty,eye_status"}, //landmark
+        {"face_field", "age,beauty,eye_status"}, //landmark150
         {"max_face_num", 1},
         {"face_type", "LIVE"},
         {"liveness_control", "LOW"}

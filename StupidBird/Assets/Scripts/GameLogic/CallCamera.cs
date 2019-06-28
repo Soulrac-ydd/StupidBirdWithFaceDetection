@@ -30,6 +30,7 @@ public class CallCamera : MonoBehaviour
 
     IEnumerator Start()
     {
+        //调用设备的摄像头
         //获取授权  
         yield return Application.RequestUserAuthorization(UserAuthorization.WebCam);
         if (Application.HasUserAuthorization(UserAuthorization.WebCam))
