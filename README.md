@@ -10,7 +10,7 @@ ps：保存本地使用Windows自带的图片查看还有墨水动画效果:)
 
 ![](StupidBird/ScreenShot/InkedScreenShot_LI.jpg)
 
-## Development setup
+## Development Setup
 
 项目依赖ai.Baidu及Json.net开发工具包，需要：
 
