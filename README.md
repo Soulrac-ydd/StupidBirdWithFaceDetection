@@ -6,7 +6,7 @@
 
 颜值较低，原图已扣。心生一意，略添几笔。
 
-ps：Windows自带的图片查看还有墨水动画效果:)
+ps：保存本地使用Windows自带的图片查看还有墨水动画效果:)
 
 ![](StupidBird/ScreenShot/InkedScreenShot_LI.jpg)
 
